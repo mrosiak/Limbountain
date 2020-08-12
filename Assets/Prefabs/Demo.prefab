@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2083896341176460929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2083896341176460943}
+  - component: {fileID: 2083896341176460942}
+  m_Layer: 0
+  m_Name: Demo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2083896341176460943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083896341176460929}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.96}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2083896341176460942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083896341176460929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fae72f16906c3a45946e244f697a435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  w: 0.01
+  iterations: 2
+  useGravity: 1
+  gravity: 1
+  activeJoint: 5
+  Joints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  winVfx: {fileID: 198537984209914932, guid: 1807cc9fc1c80164cb2c17c31fe7bb21, type: 3}
+  winSfx: {fileID: 8300000, guid: 692bf037f12901c4d8307ab9f5ef51ca, type: 3}
+  deathVfx: {fileID: 198537984209914932, guid: 1a51bfda454239a41afb7dee687c6ac0, type: 3}
+  deathSfx: {fileID: 8300000, guid: 3ab4b6a6ab9941c4a8f398acc981c4fc, type: 3}
+  FreezZ: -0.2
+  LeftHandGrip: {fileID: 0}
+  RightHandGrip: {fileID: 0}
+  LeftFootGrip: {fileID: 0}
+  RightFootGrip: {fileID: 0}
+  calculateTurn: 0
+  isDead: 0
+  isWin: 0
+  InfoMessage: {fileID: 0}
+  Score: {fileID: 0}
+  Height: {fileID: 0}
+  messageInSeconds: 6
+  InfoMessageText: 
+  touchedGrips: []
